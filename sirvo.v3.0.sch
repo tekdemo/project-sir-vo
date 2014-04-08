@@ -8,20 +8,20 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="10" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -30,8 +30,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -39,17 +39,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -2840,21 +2840,6 @@ Basic SMA packaged diode. Good for reverse polarization protection. Common part 
 <text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
-<package name="SOT23-3">
-<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
-<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
-<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
-<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
-<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
 <package name="DIODE-1N4148">
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
 <wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
@@ -3302,6 +3287,21 @@ Exposed traces may contact pins</text>
 <smd name="NEG5" x="-0.635" y="-0.635" dx="0.0254" dy="0.0254" layer="16" stop="no" thermals="no" cream="no"/>
 <smd name="NEG6" x="0" y="-0.889" dx="0.0254" dy="0.0254" layer="16" stop="no" thermals="no" cream="no"/>
 <smd name="NEG7" x="0.635" y="-0.635" dx="0.0254" dy="0.0254" layer="16" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="SOT23-3">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21"/>
+<wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1"/>
+<text x="-0.8255" y="1.778" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-0.1905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -5775,8 +5775,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="LINE-OUT" library="SparkFun-Connectors" deviceset="M04" device="1X04_NO_SILK"/>
 <part name="U$5" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="C_M1" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
-<part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
 <part name="C_3V2" library="rcl" deviceset="C-US" device="C0603" value="2.2uF"/>
 <part name="C_M2" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
 <part name="C_M" library="rcl" deviceset="C-US" device="C0402" value="0.1uF"/>
@@ -5792,8 +5790,6 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="P+9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$11" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
-<part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
 <part name="&lt;HEADER&gt;1" library="tekdemo" deviceset="M06X02" device="2MM_SMT"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP_POL" device="C"/>
@@ -5801,6 +5797,10 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="R_PDA" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 <part name="R_P" library="SparkFun-Passives" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="1k-10k"/>
 <part name="P+10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
+<part name="JP5" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
+<part name="JP6" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
+<part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
+<part name="JP3" library="SparkFun-Connectors" deviceset="M01" device="SMD-4.5X1.5" value="M01SMD-4.5X1.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -5860,8 +5860,6 @@ low-power modes</text>
 <instance part="LINE-OUT" gate="G$1" x="271.78" y="119.38" rot="R180"/>
 <instance part="U$5" gate="G$1" x="254" y="116.84" rot="R90"/>
 <instance part="C_M1" gate="G$1" x="220.98" y="35.56"/>
-<instance part="JP1" gate="G$1" x="261.62" y="45.72" rot="R270"/>
-<instance part="JP2" gate="G$1" x="261.62" y="22.86" rot="R90"/>
 <instance part="C_3V2" gate="G$1" x="114.3" y="198.12"/>
 <instance part="C_M2" gate="G$1" x="228.6" y="35.56"/>
 <instance part="C_M" gate="G$1" x="236.22" y="35.56"/>
@@ -5880,8 +5878,6 @@ low-power modes</text>
 <instance part="SUPPLY2" gate="GND" x="160.02" y="162.56" rot="R270"/>
 <instance part="P+9" gate="G$1" x="160.02" y="157.48" rot="R90"/>
 <instance part="U$11" gate="G$1" x="157.48" y="154.94" rot="R90"/>
-<instance part="JP3" gate="G$1" x="274.32" y="45.72" rot="R270"/>
-<instance part="JP4" gate="G$1" x="274.32" y="22.86" rot="R90"/>
 <instance part="&lt;HEADER&gt;1" gate="G$1" x="205.74" y="213.36"/>
 <instance part="C1" gate="G$1" x="27.94" y="210.82"/>
 <instance part="C2" gate="G$1" x="35.56" y="210.82"/>
@@ -5892,6 +5888,10 @@ low-power modes</text>
 <instance part="R_P" gate="D" x="220.98" y="139.7" rot="R90"/>
 <instance part="R_P" gate="B" x="215.9" y="127" rot="R90"/>
 <instance part="P+10" gate="G$1" x="215.9" y="147.32"/>
+<instance part="JP5" gate="G$1" x="261.62" y="58.42" rot="R270"/>
+<instance part="JP6" gate="G$1" x="274.32" y="58.42" rot="R270"/>
+<instance part="JP1" gate="G$1" x="261.62" y="15.24" rot="R90"/>
+<instance part="JP3" gate="G$1" x="274.32" y="15.24" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6284,16 +6284,12 @@ low-power modes</text>
 <pinref part="C_M1" gate="G$1" pin="1"/>
 <wire x1="220.98" y1="38.1" x2="228.6" y2="38.1" width="0.1524" layer="91"/>
 <junction x="220.98" y="38.1"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="C_M2" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="38.1" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
 <junction x="228.6" y="38.1"/>
 <pinref part="C_M" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="38.1" x2="261.62" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
 <junction x="236.22" y="38.1"/>
-<pinref part="JP3" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="38.1" x2="274.32" y2="38.1" width="0.1524" layer="91"/>
-<junction x="261.62" y="38.1"/>
 </segment>
 </net>
 <net name="MOTOR_B" class="0">
@@ -6306,16 +6302,12 @@ low-power modes</text>
 <pinref part="C_M1" gate="G$1" pin="2"/>
 <wire x1="220.98" y1="30.48" x2="228.6" y2="30.48" width="0.1524" layer="91"/>
 <junction x="220.98" y="30.48"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
 <pinref part="C_M2" gate="G$1" pin="2"/>
 <wire x1="228.6" y1="30.48" x2="236.22" y2="30.48" width="0.1524" layer="91"/>
 <junction x="228.6" y="30.48"/>
 <pinref part="C_M" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="30.48" x2="261.62" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="30.48" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="236.22" y="30.48"/>
-<pinref part="JP4" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="30.48" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
-<junction x="261.62" y="30.48"/>
 </segment>
 </net>
 <net name="MA_PWM" class="0">
