@@ -5790,7 +5790,7 @@ Standard 1-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="P+9" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$11" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
-<part name="&lt;HEADER&gt;1" library="tekdemo" deviceset="M06X02" device="2MM_SMT"/>
+<part name="&lt;HEADER&gt;" library="tekdemo" deviceset="M06X02" device="2MM_SMT"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH2"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP_POL" device="C"/>
 <part name="R.PDB" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="10k"/>
@@ -5878,7 +5878,7 @@ low-power modes</text>
 <instance part="SUPPLY2" gate="GND" x="160.02" y="162.56" rot="R270"/>
 <instance part="P+9" gate="G$1" x="160.02" y="157.48" rot="R90"/>
 <instance part="U$11" gate="G$1" x="157.48" y="154.94" rot="R90"/>
-<instance part="&lt;HEADER&gt;1" gate="G$1" x="205.74" y="172.72"/>
+<instance part="&lt;HEADER&gt;" gate="G$1" x="205.74" y="172.72"/>
 <instance part="C1" gate="G$1" x="27.94" y="210.82"/>
 <instance part="C2" gate="G$1" x="35.56" y="210.82"/>
 <instance part="R.PDB" gate="G$1" x="203.2" y="15.24" rot="R270"/>
@@ -5982,7 +5982,7 @@ low-power modes</text>
 <segment>
 <wire x1="193.04" y1="185.42" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
 <label x="182.88" y="185.42" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$1"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="RXI" class="0">
@@ -6057,7 +6057,7 @@ low-power modes</text>
 <segment>
 <wire x1="193.04" y1="160.02" x2="182.88" y2="160.02" width="0.1524" layer="91"/>
 <label x="182.88" y="160.02" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$11"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$11"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -6103,7 +6103,7 @@ low-power modes</text>
 <segment>
 <wire x1="220.98" y1="165.1" x2="233.68" y2="165.1" width="0.1524" layer="91"/>
 <label x="228.6" y="165.1" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$10"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$10"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -6129,7 +6129,7 @@ low-power modes</text>
 <segment>
 <wire x1="220.98" y1="160.02" x2="236.22" y2="160.02" width="0.1524" layer="91"/>
 <label x="228.6" y="160.02" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$12"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$12"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -6179,7 +6179,7 @@ low-power modes</text>
 <segment>
 <wire x1="193.04" y1="175.26" x2="182.88" y2="175.26" width="0.1524" layer="91"/>
 <label x="182.88" y="175.26" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$5"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$5"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -6206,7 +6206,7 @@ low-power modes</text>
 <segment>
 <wire x1="193.04" y1="180.34" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
 <label x="182.88" y="180.34" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$3"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -6233,7 +6233,7 @@ low-power modes</text>
 <segment>
 <wire x1="220.98" y1="170.18" x2="238.76" y2="170.18" width="0.1524" layer="91"/>
 <label x="226.06" y="170.18" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$8"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$8"/>
 </segment>
 </net>
 <net name="ANALOG_3V3" class="0">
@@ -6421,7 +6421,7 @@ low-power modes</text>
 <segment>
 <wire x1="193.04" y1="170.18" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
 <label x="182.88" y="170.18" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$7"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$7"/>
 </segment>
 <segment>
 <pinref part="R.PU" gate="B" pin="2"/>
@@ -6534,7 +6534,7 @@ low-power modes</text>
 </segment>
 <segment>
 <wire x1="193.04" y1="165.1" x2="182.88" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$9"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$9"/>
 <label x="182.88" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -6549,7 +6549,7 @@ low-power modes</text>
 <segment>
 <wire x1="220.98" y1="175.26" x2="231.14" y2="175.26" width="0.1524" layer="91"/>
 <label x="226.06" y="175.26" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$6"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$6"/>
 </segment>
 <segment>
 <label x="119.38" y="99.06" size="1.778" layer="95"/>
@@ -6601,7 +6601,7 @@ low-power modes</text>
 <segment>
 <wire x1="220.98" y1="180.34" x2="233.68" y2="180.34" width="0.1524" layer="91"/>
 <label x="228.6" y="180.34" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$4"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$4"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -6629,7 +6629,7 @@ low-power modes</text>
 <segment>
 <wire x1="220.98" y1="185.42" x2="228.6" y2="185.42" width="0.1524" layer="91"/>
 <label x="223.52" y="185.42" size="1.778" layer="95"/>
-<pinref part="&lt;HEADER&gt;1" gate="G$1" pin="P$2"/>
+<pinref part="&lt;HEADER&gt;" gate="G$1" pin="P$2"/>
 </segment>
 </net>
 </nets>

@@ -1,1 +1,6 @@
 eagle.epf
+
+*.b#*
+*.s#*
+
+archived-versions/
