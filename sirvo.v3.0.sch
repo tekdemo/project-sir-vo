@@ -3202,12 +3202,11 @@ Exposed traces may contact pins</text>
 <smd name="P$10" x="3" y="2.5" dx="1" dy="1.6" layer="1" rot="R180"/>
 <smd name="P$11" x="5" y="-2.5" dx="1" dy="1.6" layer="1" rot="R180"/>
 <smd name="P$12" x="5" y="2.5" dx="1" dy="1.6" layer="1" rot="R180"/>
-<circle x="-6.5" y="-2.5" radius="0.7" width="0" layer="121"/>
 <wire x1="-6" y1="2" x2="-6" y2="-2" width="0.2" layer="51"/>
 <wire x1="-6" y1="-2" x2="6" y2="-2" width="0.2" layer="51"/>
 <wire x1="6" y1="-2" x2="6" y2="2" width="0.2" layer="51"/>
 <wire x1="6" y1="2" x2="-6" y2="2" width="0.2" layer="51"/>
-<text x="-6.3" y="-1.6" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-6.6302" y="0.0002" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="-5.6" y="-0.1" size="0.2" layer="51">WARNING: EXPOSED CONTACTS MAY SHORT ON PINS</text>
 <wire x1="-5.5" y1="-1.5" x2="-4.5" y2="-1.5" width="0" layer="51"/>
 <wire x1="-4.5" y1="-1.5" x2="-4.5" y2="-0.5" width="0" layer="51"/>
@@ -3257,6 +3256,15 @@ Exposed traces may contact pins</text>
 <wire x1="5.5" y1="0.5" x2="5.5" y2="1.5" width="0" layer="51"/>
 <wire x1="5.5" y1="1.5" x2="4.5" y2="1.5" width="0" layer="51"/>
 <wire x1="4.5" y1="1.5" x2="4.5" y2="0.5" width="0" layer="51"/>
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-0.508" x2="-5.842" y2="0" width="0.127" layer="21" curve="90"/>
+<wire x1="-5.842" y1="0" x2="-6.35" y2="0.508" width="0.127" layer="21" curve="90"/>
+<wire x1="-6.35" y1="0.508" x2="-6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="-5.842" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-2.54" x2="-5.842" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="5.842" y1="-2.54" x2="6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="2.54" width="0.127" layer="21"/>
+<wire x1="6.35" y1="2.54" x2="5.842" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="BURIED-0603">
 <smd name="POS" x="0.635" y="0.635" dx="0.0254" dy="0.0254" layer="1" stop="no" thermals="no" cream="no"/>
