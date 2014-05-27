@@ -5832,6 +5832,7 @@ allow 5V tolerance, but
 needs to be tested
 during suspended/
 low-power modes</text>
+<text x="154.94" y="2.54" size="1.778" layer="91">MAKE THESE PULL UPS INSTEAD OF PULL DOWN</text>
 </plain>
 <instances>
 <instance part="UC" gate="G$1" x="91.44" y="119.38"/>
